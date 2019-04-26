@@ -1,0 +1,16 @@
+/* Star Style */
+
+#starImg, #starbg1 {
+    width: 15px;
+    height: 15px;
+}
+
+#starbg1 {
+    margin-left: 5px;
+    background-color: #f1f1f1;
+}
+
+#starbg2 {
+    height: 15px;
+    background-color: #fed739;
+}

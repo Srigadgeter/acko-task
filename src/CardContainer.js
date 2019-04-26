@@ -1,10 +1,30 @@
 import React from 'react';
 import './CardContainer.css';
 
+import Star from './Star';
+
 import fitness from './images/fitness.png';
 import reviewImg from './images/profile.jpg';
 
 const CardContainer = (props) => {
+    // Star Filling Logic
+    let starValues = [];
+    const quo = Math.floor(props.star / 1);
+    const rem = (props.star * 10) % 10;
+
+    for(let i=0;i<quo;i++) {
+        starValues.push(10 * 1.5);
+    }
+
+    if(rem !== 0)
+        starValues.push(rem * 1.5);
+
+    for(let i=0;i<5;i++) {
+        if(!starValues[i])
+            starValues.push(0);
+    }
+
+
     return (
         <div className="card">
             <img src={fitness} alt="fitness" id="logo" />
@@ -26,7 +46,13 @@ const CardContainer = (props) => {
                 </div>
             </div>
             <div className="floatRight">
-                <div className="starContainer">{props.star}</div>
+                <div className="starContainer">
+                    {
+                        starValues.map((val) => {
+                            return <Star fillRatio={val} />
+                        })
+                    }
+                </div>
                 <div className="reviews reg gray">({props.reviews} Reviews)</div>
                 <button className="schedule">SCHEDULE</button>
             </div>

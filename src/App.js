@@ -16,19 +16,19 @@ class App extends Component {
     cards: [
       {
         img: 'fitness',
-        title: 'Body & Soul',
+        title: 'Perfect Body System',
         author: 'John Taylor',
         content: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups',
         club: 'Gold Gym Ohlo',
         partners: 'BeActive, Multisport',
         members: '7/14',
-        star: 5,
+        star: 4.5,
         reviews: 12,
         more: 3
       },
       {
         img: 'fitness',
-        title: 'Rapid Fat Burning',
+        title: 'Power Pump',
         author: 'Alicia Reed',
         content: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups',
         club: 'Fit Life',
@@ -58,31 +58,31 @@ class App extends Component {
         club: 'Fit Life',
         partners: 'Multisport',
         members: '8/14',
-        star: 4,
+        star: 4.5,
         reviews: 134,
         more: 4
       },
       {
         img: 'fitness',
-        title: 'Body & Soul',
+        title: 'Perfect Body System',
         author: 'John Taylor',
         content: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups',
         club: 'Gold Gym Ohlo',
         partners: 'BeActive, Multisport',
         members: '7/14',
-        star: 5,
+        star: 3.5,
         reviews: 12,
         more: 3
       },
       {
         img: 'fitness',
-        title: 'Rapid Fat Burning',
+        title: 'Power Pump',
         author: 'Alicia Reed',
         content: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups',
         club: 'Fit Life',
         partners: 'Multisport',
         members: '8/14',
-        star: 4,
+        star: 4.5,
         reviews: 134,
         more: 4
       }
