@@ -136,7 +136,45 @@ class App extends Component {
           </div>
         </div>
         <div className="footer">
-            
+            <div className="fCont1 reg">
+              <img src={acko} alt="acko_logo" id="companyLogo" />
+              <div id="companyName" className="med">Acko General Insurance Ltd.</div>
+              <div id="companyAddress">Unit No. 301 & 302, 3rd Floor, F wing, Lotus Corporate Park, Off Western Express Highway, Jay Coach, Goregaon East, Mumbai 400063.</div>
+              <div id="Email">Email: hello@acko.com</div>
+              <div id="Phone">Phone: 1860 266 2256</div>
+            </div>
+            <div className="fCont2 reg">
+              <div className="fTitle med">COMPANY</div>
+              <ul className="fItems">
+                <li>About Us</li>
+                <li>Board Of Directors</li>
+                <li>Careers</li>
+                <li>Articles</li>
+                <li>Partnerships</li>
+                <li>Sitemap</li>
+              </ul>
+            </div>
+            <div className="fCont3 reg">
+            <div className="fTitle med">SUPPORT</div>
+              <ul className="fItems">
+                <li>Consumer Buying Process</li>
+                <li>Cancellations & Refunds</li>
+                <li>Customer Service</li>
+                <li>Downloads</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div className="fCont4 reg">
+            <div className="fTitle med">LEGAL</div>
+              <ul className="fItems">
+                <li>Whistleblower Policy</li>
+                <li>Public Disclosure</li>
+                <li>Financials & Disclosures</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+                <li>Stewardship Code</li>
+              </ul>
+            </div>
         </div>
 
       </div>

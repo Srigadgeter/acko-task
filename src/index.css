@@ -6,11 +6,6 @@ body {
 /* Fonts */
 
 @font-face {
-  font-family: 'SofiaProSemiBold';
-  src: url('./fonts/Sofia_Pro_SemiBold.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'BrandonReg';
   src: url('./fonts/Brandon_regular.otf') format('opentype');
 }

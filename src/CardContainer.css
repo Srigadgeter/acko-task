@@ -20,7 +20,7 @@
     width: 150px;
     height: 150px;
     position: absolute;
-    background-image: linear-gradient(to right top, #03132bca, #023857c2, #015a62c7);
+    background-image: linear-gradient(to right top, #03132b, #023857, #015a62);
     box-shadow: 0 2px 4px rgba(152, 152, 152, 0.4);
 }
 

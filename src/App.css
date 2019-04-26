@@ -75,3 +75,64 @@
     padding-bottom: 100px;
 }
 
+
+/* Footer Style */
+
+.footer {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 30px 100px;
+    background-color: black;
+}
+
+.footer .med {
+    color: white;
+    font-size: 13px;
+    font-family: BrandonMed;
+}
+
+.footer .reg {
+    font-size: 12px;
+    color: lightgray;
+    font-family: BrandonReg;
+}
+
+.footer ul {
+    margin-left: -40px;
+}
+
+.footer li {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+#companyLogo {
+    width: 90px;
+}
+
+#companyName {
+    margin: 7px 0 17px 0;
+}
+
+#companyAddress {
+    line-height: 110%;
+}
+
+.fCont1 {
+    width: 250px;
+}
+
+.fCont1 div {
+    margin-bottom: 8px;
+}
+
+.fTitle {
+    font-weight: bold;
+    margin-bottom: 17px;
+    font-size: 12px !important;
+}
+
+.fCont1, .fCont2, .fCont3 {
+    margin-right: 160px;
+}
