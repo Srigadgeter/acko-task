@@ -1,0 +1,113 @@
+/* Card Style */
+
+.card {
+    width: 425px;
+    height: 275px;
+    position: relative;
+    padding: 13px;
+    margin-bottom: 70px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(152, 152, 152, 0.4);
+}
+
+.card:nth-child(odd) {
+    margin-right: 16px;
+}
+
+#logo {
+    left: 12px;
+    top: -20px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-image: linear-gradient(to right top, #03132bca, #023857c2, #015a62c7);
+    box-shadow: 0 2px 4px rgba(152, 152, 152, 0.4);
+}
+
+.med {
+    font-family: BrandonMed;
+}
+
+.reg {
+    font-family: BrandonReg;
+}
+
+.gray {
+    color: gray;
+}
+
+.cardSubContainer {
+    margin-left: 163px;
+    padding: 20px 0 0 20px;
+}
+
+.cardTitle {
+    font-size: 16px;
+}
+
+.author, .club, .partners, .members, .reviews {
+    font-size: 13px;
+}
+
+.cardContent {
+    font-size: 12px;
+}
+
+.floatLeft {
+    float: left;
+    margin: 45px 0 0 0;
+}
+
+.floatRight {
+    float: right;
+    margin: 45px 0 0 0;
+}
+
+.reviews {
+    text-align: right;
+}
+
+.schedule {
+    width: 140px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 11px;
+    margin-top: 40px;
+    font-weight: bold;
+    border-radius: 9px;
+    font-family: BrandonMed;
+    box-shadow: 0 9px 8px #dfdfdf;
+    text-shadow: 1px 1px 2px #2d2b54;
+    background: linear-gradient(to right, #7873dc, #8b86f4);
+}
+
+.reviewImgContainer{
+    display: flex;
+    margin-top: 15px;
+}
+
+.reviewImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0 0 4px #dfdfdf;
+}
+
+.closer {
+    margin-left: -12px;    
+}
+
+#reviewImgMore {
+    width: 18px;
+    padding: 8px;
+    font-size: 12px;
+    margin: 1px 0 0 -12px;
+    border-radius: 50%;
+    text-align: center;
+    font-family: BrandonMed;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 4px #dfdfdf;
+}
