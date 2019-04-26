@@ -101,7 +101,7 @@ class App extends Component {
               <img src={yoga} alt="yoga" />
               <div className="tabItemTexts">Yoga</div>
             </div>
-            <div className="tabItems" id="fitness">
+            <div className="tabSelected tabItems" id="fitness">
               <img src={fitness} alt="yoga" />
               <div className="tabItemTexts">Fitness</div>
             </div>
@@ -135,6 +135,7 @@ class App extends Component {
             }
           </div>
         </div>
+        
         <div className="footer">
             <div className="fCont1 reg">
               <img src={acko} alt="acko_logo" id="companyLogo" />

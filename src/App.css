@@ -40,6 +40,16 @@
     font-family: BrandonMed;
 }
 
+.tabSelected {
+    top: -10px;
+    z-index: 100;
+    width: 200px;
+    height: 140px;
+    position: relative;
+    border-bottom: 3px solid #7873dc;
+    box-shadow: 0 0 6px rgba(178, 176, 176, 0.54);
+}
+
 /* sort option */
 
 .sort {
